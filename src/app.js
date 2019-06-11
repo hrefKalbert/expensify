@@ -15,10 +15,10 @@ const theRoot = document.querySelector('#app')
 const store = configureStore()
 // store.subscribe( () => console.log('subscriptionupdate:',getVisibleExpenses(store.getState().expenses, store.getState().filters)))
 
-// store.dispatch(addExpense({description: 'Water bill', amount: 4500}))
-// store.dispatch(addExpense({description: 'Gas Bill', createdAt: 1000}))
+store.dispatch(addExpense({description: 'Water bill', amount: 4500}))
+store.dispatch(addExpense({description: 'Gas Bill', createdAt: 1000}))
 
-// store.dispatch(addExpense({description: 'rent', amount: 109500}))
+store.dispatch(addExpense({description: 'rent', amount: 109500}))
 
 
 
