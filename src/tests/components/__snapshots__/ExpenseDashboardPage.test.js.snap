@@ -4,5 +4,6 @@ exports[`should trst something 1`] = `
 <div>
   <React.Memo />
   <React.Memo />
+  <React.Memo />
 </div>
 `;
